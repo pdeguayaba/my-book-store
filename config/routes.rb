@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  resources :books
   devise_for :users
   devise_for :uders
   root 'pages#home'
