@@ -62,3 +62,5 @@ gem 'devise'
 gem 'cancan'
 # Paperclip (image)
 gem "paperclip", "~> 6.0.0"
+# Dotenv
+gem 'dotenv-rails', groups: [:development]
