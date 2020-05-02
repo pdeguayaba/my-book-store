@@ -60,3 +60,5 @@ gem 'simple_form'
 gem 'devise'
 # CanCan
 gem 'cancan'
+# Paperclip (image)
+gem "paperclip", "~> 6.0.0"
