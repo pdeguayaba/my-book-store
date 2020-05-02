@@ -64,3 +64,5 @@ gem 'cancan'
 gem "paperclip", "~> 6.0.0"
 # Dotenv
 gem 'dotenv-rails', groups: [:development]
+# AWS
+gem 'aws-sdk', '~> 3'
