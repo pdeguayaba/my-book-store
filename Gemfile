@@ -66,3 +66,5 @@ gem "paperclip", "~> 6.0.0"
 gem 'dotenv-rails', groups: [:development]
 # AWS
 gem 'aws-sdk', '~> 3'
+# Friendly.id
+gem 'friendly_id', '~> 5.2.4'
