@@ -1,0 +1,17 @@
+<table class = 'table table-hover'>
+  <thead>
+    <tr>
+      <th scope="col">Name</th>
+      <th scope="col">Date</th>
+      <th></th>
+    </tr>
+  </thead>
+  <tbody>
+    <% @purchased.each do |sale| %>
+      <tr>
+        <td><%= link_to sale.book.name, pickup_path(sale.uuid) %></td>
+        <td><%= time_ago_in_words(sale.created_at) %> ago</td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
