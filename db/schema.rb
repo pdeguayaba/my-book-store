@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2020_05_03_010550) do
+ActiveRecord::Schema.define(version: 2020_05_03_201558) do
 
   create_table "books", force: :cascade do |t|
     t.string "name"
@@ -52,6 +52,10 @@ ActiveRecord::Schema.define(version: 2020_05_03_010550) do
     t.integer "book_id"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
+    t.string "state"
+    t.string "stripe_id"
+    t.string "stripe_token"
+    t.text "error"
   end
 
   create_table "uders", force: :cascade do |t|
